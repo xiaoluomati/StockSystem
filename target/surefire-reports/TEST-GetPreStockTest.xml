@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="GetPreStockTest" time="0.002" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.8\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\AnyQuant\src\StockSystem"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\AnyQuant\src\StockSystem"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="E:\AnyQuant\src\StockSystem\target\surefire\surefirebooter8129768092785438192.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Java\jdk1.8\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jdk1.8/bin/../jre/bin/server;D:/Java/jdk1.8/bin/../jre/bin;D:/Java/jdk1.8/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;d:\MinGW\bin;d:\python;D:\Java\jdk1.8\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\Administrator\AppData\Local\atom\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Windows\system32;;."/>
+    <property name="surefire.test.class.path" value="E:\AnyQuant\src\StockSystem\target\test-classes;E:\AnyQuant\src\StockSystem\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\Administrator\.m2\repository\org\jfree\jfreechart\1.0.19\jfreechart-1.0.19.jar;C:\Users\Administrator\.m2\repository\org\jfree\jcommon\1.0.23\jcommon-1.0.23.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.4\gson-2.4.jar;E:\AnyQuant\src\StockSystem\lib\DatePicker-V0.99-2006.09.01.jar;E:\AnyQuant\src\StockSystem\lib\beautyeye_lnf.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="E:\AnyQuant\src\StockSystem\target\test-classes;E:\AnyQuant\src\StockSystem\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\Administrator\.m2\repository\org\jfree\jfreechart\1.0.19\jfreechart-1.0.19.jar;C:\Users\Administrator\.m2\repository\org\jfree\jcommon\1.0.23\jcommon-1.0.23.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.4\gson-2.4.jar;E:\AnyQuant\src\StockSystem\lib\DatePicker-V0.99-2006.09.01.jar;E:\AnyQuant\src\StockSystem\lib\beautyeye_lnf.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Java\jdk1.8\jre"/>
+    <property name="sun.java.command" value="E:\AnyQuant\src\StockSystem\target\surefire\surefirebooter8129768092785438192.jar E:\AnyQuant\src\StockSystem\target\surefire\surefire223953884845794179tmp E:\AnyQuant\src\StockSystem\target\surefire\surefire2246630542171730141tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.8\jre\lib\resources.jar;D:\Java\jdk1.8\jre\lib\rt.jar;D:\Java\jdk1.8\jre\lib\sunrsasign.jar;D:\Java\jdk1.8\jre\lib\jsse.jar;D:\Java\jdk1.8\jre\lib\jce.jar;D:\Java\jdk1.8\jre\lib\charsets.jar;D:\Java\jdk1.8\jre\lib\jfr.jar;D:\Java\jdk1.8\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="GetPreStockTest" name="testGetPreS" time="0.001">
+    <error message="org/apache/http/client/methods/HttpUriRequest" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/apache/http/client/methods/HttpUriRequest
+	at data.utils.DataManager.getHistoryData(DataManager.java:40)
+	at data.StockListData.getByName(StockListData.java:95)
+	at logic.utils.GetPreStock.getPreS(GetPreStock.java:89)
+	at GetPreStockTest.testGetPreS(GetPreStockTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+Caused by: java.lang.ClassNotFoundException: org.apache.http.client.methods.HttpUriRequest
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 29 more
+</error>
+    <system-out>@SLTests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec &lt;&lt;&lt; FAILURE!
+@SLRunning GetPreStockTest
+test
+</system-out>
+  </testcase>
+</testsuite>
